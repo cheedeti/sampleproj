@@ -1,0 +1,25 @@
+{
+  "type": "container",
+  "version": "1.0.0",
+  "engine": {},
+  "state": {
+    "type": "object",
+    "properties": {
+      "className": {
+        "type": "string"
+      },
+      "classNameLoading": {
+        "type": "string"
+      },
+      "hidden": {
+        "type": "boolean"
+      },
+      "loading": {
+        "type": "boolean",
+        "default": false
+      }
+    }
+  },
+  "children": false,
+  "events": []
+}

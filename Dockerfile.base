@@ -1,0 +1,13 @@
+# TODO: export image as 'remix-component-lib-template:1.5.5'
+
+FROM node:6
+
+COPY .npmrc /gssp/app/
+COPY package.json /gssp/app/
+
+WORKDIR /gssp/app
+RUN npm install -g gulp
+RUN yarn
+
+LABEL Description="Remix Component Library Template"
+LABEL remix.version=1.5.5

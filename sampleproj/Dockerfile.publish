@@ -1,0 +1,19 @@
+FROM usaze-nonprod.dtr.metlife.com/9498-gssp-core/remix-component-lib-template:1.5.5
+
+# Copy application code
+COPY . /gssp/app/
+
+# set working directory
+WORKDIR /gssp/app
+
+# Copy npm credentials from bamboo box
+RUN cat .npmrcbk >> ~/.npmrc
+
+# TODO: Copy git credentials from bamboo box
+
+# get delta node modules
+RUN yarn install
+
+# Auto increment NPM version, create GIT TAG, Publish Node Modules to sinopia
+# This should be from develop branch and controlled
+RUN gulp publish-server-only

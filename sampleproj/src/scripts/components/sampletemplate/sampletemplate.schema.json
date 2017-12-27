@@ -1,0 +1,62 @@
+{
+  "type": "button",
+  "version": "1.0.0",
+  "engine": {},
+  "state": {
+    "type": "object",
+    "properties": {
+      "ariaLabel": {
+        "type": "string"
+      },
+      "autofocus": {
+        "type": "boolean",
+        "default": false
+      },
+      "className": {
+        "type": "string",
+        "default": "btn-blue"
+      },
+      "classNameWrapper": {
+        "type": "string"
+      },
+      "disabled": {
+        "type": "boolean",
+        "default": false
+      },
+      "form": {
+        "type": "string"
+      },
+      "hidden": {
+        "type": "boolean",
+        "default": false
+      },
+      "label": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "button",
+          "reset",
+          "submit"
+        ],
+        "default": "button"
+      },
+      "value": {
+        "type": "string",
+        "default": "click"
+      }
+    }
+  },
+  "children": false,
+  "events": [
+    "blur",
+    "click",
+    "focus",
+    "mouseDown",
+    "mouseUp"
+  ]
+}

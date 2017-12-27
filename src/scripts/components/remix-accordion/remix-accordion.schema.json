@@ -1,0 +1,27 @@
+{
+  "type": "remix-accordion",
+  "version": "0.0.1",
+  "engine": {},
+  "state": {
+    "type": "object",
+    "properties": {
+      "hidden": {
+        "type": "boolean"
+      },
+      "disabled": {
+        "type": "boolean"
+      },
+      "className": {
+        "type": "string"
+      },
+      "label": {
+        "type": "string"
+      },
+      "collapse": {
+        "type": "boolean"
+      }
+    }
+  },
+  "children": false,
+  "events": []
+}

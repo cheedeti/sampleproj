@@ -1,0 +1,104 @@
+{
+  "type": "input",
+  "version": "0.0.1",
+  "engine": {},
+  "state": {
+    "type": "object",
+    "properties": {
+      "modelValue": {
+        "type": "any"
+      },
+      "label": {
+        "type": "string"
+      },
+      "labelClass": {
+        "type": "string"
+      },
+      "hint": {
+        "type": "string"
+      },
+      "placeholder": {
+        "type": "string"
+      },
+      "hidden": {
+        "type": "boolean"
+      },
+      "disabled": {
+        "type": "boolean"
+      },
+      "className": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "srOnly": {
+        "type": "boolean"
+      },
+      "minLength": {
+        "type": "string"
+      },
+      "maxLength": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "dataId": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "pattern": {
+        "type": "string"
+      },
+      "error": {
+        "type": "boolean"
+      },
+      "isValid": {
+        "type": "boolean"
+      },
+      "helpLabel": {
+        "type": "string"
+      },
+      "inputLabel": {
+        "type": "string"
+      },
+      "hintText": {
+        "type": "string"
+      },
+      "errorText": {
+        "type": "string"
+      },
+      "isRequired": {
+        "type": "boolean"
+      },
+      "requiredSymbol": {
+        "type": "string"
+      },
+      "validations": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "any"
+          },
+          "field": {
+            "type": "any"
+          },
+          "isValid": {
+            "type": "boolean"
+          },
+          "messages": {
+            "type": "array",
+            "items": {
+              "type": "any"
+            }
+          }
+        }
+      }
+    }
+  },
+  "children": false,
+  "events": []
+}

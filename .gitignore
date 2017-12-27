@@ -1,0 +1,9 @@
+**/dist
+**/disc
+**/lib
+**/node_modules
+**/coverage
+**/.idea
+.vscode/
+.jsbeautifyrc
+src/styles/bundle.css

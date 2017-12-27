@@ -1,0 +1,33 @@
+.form-group {
+  margin: 10px 0 0;
+}
+
+.field-error {
+  border: solid 1px $soft-red;
+  color: $red;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 0 0 10px;
+}
+
+.form-wrapper {
+  padding: 0 0 0 10px;
+}
+
+.input-label {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  width: 75px;
+}
+
+.form-control {
+  font-size: 15px;
+  font-weight: normal;
+  height: auto;
+  margin: 0 10px;
+}
+
+.form-btn {
+  display: inline-block;
+  margin: 10px 0 0;
+}

@@ -1,0 +1,48 @@
+.btn-blue {
+  background-color: $white;
+  border: 1px solid $metlife-blue6;
+  color: $metlife-blue6;
+  font-size: 13px;
+  font-weight: bold;
+  height: auto;
+  padding: 10px 22px;
+  width: auto;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $metlife-blue6;
+    color: $white;
+  }
+
+  &[disabled] {
+    background-color: $soft-gray;
+    border: 1px solid $soft-gray;
+    color: $white;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $soft-gray;
+    }
+  }
+}
+
+.btn-green {
+  background-color: $light-green;
+  border: 1px solid $light-green;
+  color: $white;
+  font-size: 13px;
+  font-weight: bold;
+  height: auto;
+  padding: 10px 22px;
+  width: auto;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $green;
+    border: 1px solid $green;
+    color: $white;
+  }
+}

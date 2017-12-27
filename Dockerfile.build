@@ -1,0 +1,13 @@
+FROM usaze-nonprod.dtr.metlife.com/9498-gssp-core/remix-component-lib-template:1.5.5
+
+# Copy application code
+COPY . /gssp/app/
+
+# set working directory
+WORKDIR /gssp/app
+
+# get delta node modules
+RUN yarn install
+
+# Validate, build application - This should be for PULL requests.
+RUN gulp buildALL

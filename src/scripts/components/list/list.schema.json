@@ -1,0 +1,51 @@
+{
+  "type": "list",
+  "version": "1.0.0",
+  "engine": {},
+  "state": {
+    "type": "object",
+    "properties": {
+      "className": {
+        "type": "string"
+      },
+      "classNameItem": {
+        "type": "string"
+      },
+      "disabled": {
+        "type": "boolean",
+        "default": false
+      },
+      "hidden": {
+        "type": "boolean",
+        "default": false
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "unordered",
+          "ordered",
+          "description"
+        ],
+        "default": "unordered"
+      }
+    }
+  },
+  "children": false,
+  "events": [
+    "click"
+  ]
+}
